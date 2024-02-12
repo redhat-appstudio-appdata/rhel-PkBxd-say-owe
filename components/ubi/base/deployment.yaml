@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: ubi
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/rhel/ubi@sha256:af73dcc917d8a662b5eb5479e995bf67f0e35a175069d51485719614be8f3455
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/rhel/ubi@sha256:f38304d371a8105b7c2283857bf3f9abded7c849ca57085d50ac78ba1bf30d29
         imagePullPolicy: Always
         name: container-image
         ports:
