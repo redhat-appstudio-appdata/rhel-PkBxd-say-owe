@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/rhel/ubi@sha256:da8aa04013fe8c9964cb6a13d3a72b3ce39dcf1cf36ac04bf23edb9ccd0aacf8
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/rhel/ubi@sha256:1abff03f8b13893759eaa685d65184d8b6a4015df13643433c9e2f5eed9b6392
         name: container-image
         resources: {}
 status: {}
