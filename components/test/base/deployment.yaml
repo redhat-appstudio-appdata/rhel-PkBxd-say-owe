@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/rhel/test@sha256:c1976426675cedf5af42538e9a5944da77f06b0a8892fe1beb229444e60519bf
         imagePullPolicy: Always
         name: container-image
         ports:
