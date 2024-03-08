@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: ubi
     app.kubernetes.io/part-of: rhel
-  name: ubipwik
+  name: ubib4he
 spec:
   port:
     targetPort: 8080
