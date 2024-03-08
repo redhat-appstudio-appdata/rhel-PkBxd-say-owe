@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/rhel/test@sha256:c1976426675cedf5af42538e9a5944da77f06b0a8892fe1beb229444e60519bf
+        name: container-image
+        resources: {}
+status: {}
